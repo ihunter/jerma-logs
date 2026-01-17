@@ -1,6 +1,8 @@
 export default defineCachedEventHandler(async () => {
+  const { twitchId } = useRuntimeConfig().public
+
   try {
-    return 'asdf'
+    return twitchId
   }
   catch (error) {
     console.error(error)
