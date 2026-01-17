@@ -16,8 +16,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
   ],
 
-  ssr: false,
-
   vite: {
     build: {
       rollupOptions: {
